@@ -1,0 +1,1717 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #bdbdbd;
+}
+
+.tiles .container .tile .left .box-1 p {
+    font-family: 'Amiri', serif;
+    font-size: 24px;
+    line-height: 42px;
+    padding: 23px 0 81px 0;
+    color: #000;
+}
+
+.tiles .container .tile .right .box-2 p {
+    font-family: 'Amiri', serif;
+    font-size: 70px;
+    line-height: 42px;
+    padding: 23px 0 81px 0;
+    color: #000;
+}
+
+a:visited{
+    color: black;
+}
+
+header {
+
+    margin-top: 50px;
+}
+
+.img {
+    margin-top: 50px;
+}
+
+header .menu {
+    align-items: center;
+}
+
+.logo .container .class .logo-1{
+    transition: all -25s ease;
+    filter: grayscale(s);
+}
+
+
+
+.logo .container .class .logo-1 img:hover{
+    filter: none;
+    transition: all .55s ease;
+
+}
+
+.advantage-scn .container .skill-tile img {
+    transition: all -25s ease;
+    filter: grayscale();
+
+
+}
+
+.advantage-scn .container .skill-tile img:hover {
+    /* transform: translateY(-10px); */
+    filter: none;
+    transition: all .55s ease;
+    animation: hop-icon 0.6s ease-in 1;
+
+}
+
+@keyframes hop-icon {
+    0% {
+        transform: translateY(0px)
+    }
+
+    30% {
+        transform: translateY(-10px)
+    }
+
+    50% {
+        transform: translateY(0px)
+    }
+    
+    70% {
+        transform: translateY(-10px)
+    }
+
+    100% {
+        transform: translateY(0px)
+    }
+}
+
+
+header .container .menu .menu-list ul li a:hover {
+    color: orangered;
+}
+
+header .container .menu .secondary-links .icons-list .icon a {
+
+    cursor: pointer;
+    transition: all .1s ease;
+}
+
+header .container .menu .secondary-links .icons-list .icon:hover {
+    transform: translateY(-1px);
+    color: orangered;
+}
+
+.call-bruno .container .bruno-t a:hover {
+    color: orangered;
+}
+
+.call-bruno .container .bruno-t .call{
+    cursor: pointer;
+    transition: all .105s ease;
+}
+
+footer .container .footer-1 .moonex .icons-list .icon a {
+    cursor: pointer;
+    transition: all .5s ease;
+
+}
+
+footer .container .footer-1 .moonex .icons-list .icon:hover{
+    color: orangered;
+    
+}
+
+footer .container .footer-1 .icons-list .icon:hover {
+    transform: translateY(-1px);
+    color: orangered;
+    transition: all .55s ease;
+}
+
+.tag .container .erdison:hover {
+
+    color: orangered;
+}
+
+section .container .heading h1 {
+    font-family: 'Amiri', serif;
+}
+
+section {
+    margin-top: 120px;
+}
+
+.logo .container .class {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+
+.Exp .container .section-trap .Bachelor {
+    font-family: 'Amiri', serif;
+}
+
+.Exp .container .section-trap .year,
+.Rmit {
+    font-family: 'Lato', sans-serif;
+    color: #979797;
+}
+
+.Bruno-text {
+    margin-bottom: 100px;
+}
+
+.Bruno-text .container .link a:hover {
+    text-decoration: underline !important;
+}
+
+.Bruno-text .container .link a {
+    color: #2196f2;
+    text-decoration: none;
+}
+
+.compy-img .container .img-tiles {
+    display: flex;
+}
+
+.compy-img .container .img-tiles .img-1 img {
+    width: 100%;
+}
+
+
+.tag .container .erdison {
+    margin-bottom: 60px;
+}
+
+
+.compy-img {
+    margin-bottom: 130px;
+}
+
+
+.call-bruno .container {
+
+    margin-bottom: 60px;
+}
+
+.call-bruno {
+    margin-bottom: 130px;
+}
+
+footer .container {
+    border-top: 1px solid;
+}
+
+footer .container .footer-1 {
+    font-family: 'Lato', sans-serif;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+
+
+header .container .menu .menu-list ul li a:hover {
+    color: orangered;
+}
+
+
+
+@media (max-width: 576px) {
+
+    .container {
+        width: 100%;
+        padding: 0px 12px 0px 12px;
+    }
+
+
+
+    h3 {
+        font-size: 13px;
+    }
+
+    .tiles .container .tile .right .box-2 p {
+        font-size: 63px;
+    }
+
+    header .container .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    header .container .menu .secondary-links .nav-menu {
+        font-size: 37px;
+
+    }
+
+    .menu-list ul li a {
+        text-decoration: none;
+        list-style: none;
+        color: red;
+        text-transform: uppercase;
+
+    }
+
+    .menu-list ul li {
+        list-style: none;
+        display: inline;
+        line-height: 80px;
+        display: none;
+        margin: 0 5px;
+
+    }
+
+    section .container .heading h1 {
+        text-align: center;
+        font-size: 43px;
+        font-weight: 400;
+        font-family: 'Amiri', serif;
+    }
+
+    header .icons-list {
+        display: none;
+    }
+
+
+
+    section .hero-wrapper .container .heading h1 {
+        font-size: 43px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 55px;
+        padding: 11px 24px;
+    }
+
+    .tiles .container .tile .box img {
+        width: 100%;
+        padding: 35px;
+        border: 1px solid #dfdfdf;
+
+        border-radius: 400px;
+    }
+
+    .tiles .container .tile .box {
+        width: 100%;
+        margin-bottom: 100px;
+        padding: 0 10px 0 10px;
+    }
+
+    .tiles .container .tile .left {
+        width: 100%;
+    }
+
+    .tiles .container .tile .right {
+        width: 100%;
+    }
+
+    .tiles .container .tile {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+
+    .logo .container .class {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -6.25rem 100px 0;
+        padding: 0;
+        list-style-type: none;
+        align-items: center;
+
+
+    }
+
+    .logo .container .class .logo-c {
+        padding-bottom: 50px;
+        width: 50%;
+    }
+
+    .logo .container .class .logo-1 {
+        padding: 0 0 40px 0;
+        /* padding-right: 30px; */
+    }
+
+    .logo .container .class .logo-2 {
+        padding: 0 0 40px 0;
+        /* padding-right: 30px; */
+    }
+
+    .logo .container .class .logo-3 {
+        padding: 0 0 40px 0;
+        /* padding-right: 30px; */
+    }
+
+    .logo .container .class .logo-4 {
+        padding: 0 0 40px 0;
+        /* padding-right: 30px; */
+    }
+
+    .logo .container .class .logo-5 {
+        margin: 0 auto;
+    }
+
+    .logo .container {
+        border-bottom: 1px solid;
+    }
+
+    .advantage-scn .container {
+        border-bottom: 1px solid;
+    }
+
+    .adv-name {
+        font-size: 43px;
+        text-align: center;
+        margin-top: 44px;
+        margin-bottom: 42px;
+    }
+
+    .advantage-scn {
+        /* border: 1px solid red; */
+        margin-bottom: 50px;
+    }
+
+    .advantage-scn .container {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .advantage-scn .container .skill-tile {
+        width: 50%;
+        padding: 0px 20px;
+        text-align: center;
+
+
+
+    }
+
+    .advantage-scn .container .skill-tile .inner-tile {
+        border: 1px solid #f1f1f1;
+        background-color: #f1f1f1;
+        border-radius: 116px;
+        padding: 46px 0px;
+        /* filter: grayscale(1); */
+    }
+
+    .advantage-scn .container .skill-tile .inner-tile .prcnt {
+        margin-top: 23px;
+        font-size: 40px;
+    }
+
+    .advantage-scn .container .skill-tile .figma {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .Edu-Exp {
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .Edu-Exp .container .Edu {
+        font-size: 43px;
+        text-align: center;
+        font-family: 'Amiri', serif;
+
+    }
+
+    .Exp .container {
+        border-bottom: 1px solid;
+    }
+
+    .Exp .container .year {
+        margin-bottom: 50px;
+        font-size: 12px;
+    }
+
+    .Exp .container .Bachelor {
+        font-size: 26px;
+    }
+
+    .Exp .container .Rmit {
+        margin-top: 7px;
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+
+    .Exp .container .section-trap .section-1,
+    .section-2,
+    .section-3 {
+        margin-bottom: 90px;
+    }
+
+    .Bruno-text .container .text-bruno {
+        font-size: 31px;
+        text-align: center;
+        margin-top: 65px;
+    }
+
+    .Bruno-text .container .kloop {
+        text-align: center;
+        margin-top: 80px;
+        font-size: 21px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+
+    .Bruno-text .container .link {
+        text-align: center;
+        font-size: 11px;
+        font-family: 'Lato', sans-serif;
+        padding-top: 15px;
+        font-weight: 400;
+    }
+
+    .call-bruno .container .bruno-t {
+        justify-content: center;
+        display: grid;
+
+    }
+
+    .call-bruno .container .bruno-t .call {
+        font-size: 78px;
+        display: flex;
+        flex-direction: column;
+        line-height: 76px;
+    }
+
+    .call-bruno .container .bruno-t .svg {
+        font-size: 55px;
+        margin-top: 25px;
+    }
+
+    .call-bruno .container .bruno-t .prj {
+        font-size: 10px;
+        margin-bottom: 20px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .tag .container .erdison {
+        font-size: 42px;
+        text-align: center;
+    }
+
+
+    footer .container .footer-1 {
+        text-align: center;
+
+
+    }
+
+    footer .container .footer-1 .moonex .icons-list {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    footer .container .footer-1 .moonex .icons-list .icon {
+        padding: 0 8px;
+        font-size: 24px;
+    }
+
+
+    footer .container .footer-1 .moonex {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .container {
+        width: 540px;
+        margin: 0 auto;
+    }
+
+    section .container .heading h1 {
+        text-align: center;
+        font-size: 43px;
+        font-weight: 400;
+        font-family: 'Amiri', serif;
+    }
+
+    .container .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .icons-list {
+        display: none;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    header .container .menu .secondary-links .nav-menu {
+        font-size: 37px;
+        padding-left: 22px;
+    }
+
+    section .container .heading h1 {
+        text-align: center;
+        font-size: 56px;
+        font-weight: 400;
+        font-family: 'Amiri', serif;
+    }
+
+    .tiles .container .tile .box img {
+        width: 87%;
+        padding: 42px;
+        border: 1px solid #dfdfdf;
+        border-radius: 400px;
+    }
+
+    .tiles .container .tile .box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    .tiles .container .tile .left {
+        width: 50%;
+        padding-right: 12px;
+    }
+
+    .tiles .container .tile .right {
+        width: 50%;
+        padding-left: 12px;
+    }
+
+    .tiles .container .tile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 70px;
+
+    }
+
+
+    .logo .container .class {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -6.25rem 100px 0;
+        padding: 0;
+        list-style-type: none;
+        align-items: center;
+        /* padding: 1px 100px 0 109px; */
+    }
+
+    .logo .container .class .logo-1 {
+        padding: 20px;
+    }
+
+    .logo .container {
+        border-bottom: 1px solid;
+    }
+
+    .advantage-scn .container {
+        border-bottom: 1px solid;
+    }
+
+    .advantage-scn .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .adv-name {
+        font-size: 56px;
+        text-align: center;
+        margin-top: 105px;
+        margin-bottom: 102px;
+    }
+
+    .advantage-scn .container .skill-tile {
+        width: 50%;
+        padding: 0px 20px;
+        /* background-color: aqua; */
+        text-align: center;
+        /* border: 1px solid; */
+
+
+    }
+
+    .advantage-scn .container .skill-tile .inner-tile {
+        border: 1px solid #f1f1f1;
+        background-color: #f1f1f1;
+        border-radius: 117px;
+        padding: 45px 0px;
+        /* filter: grayscale(1); */
+
+    }
+
+    .advantage-scn .container .skill-tile .inner-tile .prcnt {
+        margin-top: 23px;
+        font-size: 40px;
+    }
+
+    .advantage-scn .container .skill-tile .figma {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 16px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .Edu-Exp .container .Edu {
+        font-size: 56px;
+        text-align: center;
+        font-family: 'Amiri', serif;
+
+    }
+
+    .Edu-Exp {
+        margin-top: 60px;
+    }
+
+    .Exp .container {
+        border-bottom: 1px solid;
+    }
+
+    .Exp .container .year {
+        margin-bottom: 50px;
+    }
+
+    .Exp .container .Bachelor {
+        font-size: 26px;
+    }
+
+    .Exp .container .Rmit {
+        margin-top: 7px;
+    }
+
+    .Exp .container .section-trap .Rmit {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .Edu-Exp {
+        margin-top: 120px;
+        margin-bottom: 90px;
+    }
+
+    .Bruno-text .container .text-bruno {
+        font-size: 33px;
+        text-align: center;
+        line-height: 47px;
+        margin-top: 60px;
+
+    }
+
+    .Bruno-text {
+        margin-top: 80px;
+    }
+
+    .Bruno-text .container .kloop {
+        text-align: center;
+        margin-top: 80px;
+        font-size: 22px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+
+    .Bruno-text .container .link {
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Lato', sans-serif;
+        padding-top: 15px;
+        font-weight: 400;
+    }
+
+    .tag .container .erdison {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    /* .call-bruno .container .bruno-t .call{
+    font-size: 80px;
+    font-family: 'Amiri', serif;
+    line-height: 80px;
+  
+ } */
+
+    .call-bruno .container .bruno-t .call {
+        font-size: 84px;
+        font-family: 'Amiri', serif;
+        line-height: 74px;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .call-bruno .container .bruno-t .prj {
+        font-size: 11px;
+        margin-bottom: 26px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .call-bruno .container .bruno-t {
+        border: dashed;
+        text-align: left;
+        width: fit-content;
+        border-radius: 53%;
+        padding-top: 90px;
+        padding-bottom: 50px;
+        padding-left: 117px;
+        padding-right: 117px;
+
+        margin: 0 auto;
+    }
+
+    .call-bruno .container .bruno-t .svg {
+        font-size: 64px;
+        margin-top: 40px;
+    }
+
+
+    footer .container .footer-1 {
+        text-align: center;
+
+
+    }
+
+    footer .container .footer-1 .moonex .icons-list {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    footer .container .footer-1 .moonex .icons-list .icon {
+        padding: 0 8px;
+        font-size: 24px;
+    }
+
+
+    footer .container .footer-1 .moonex {
+        margin-top: 15px;
+    }
+
+    header .container .menu .menu-list ul li a:hover {
+        color: orangered;
+    }
+
+    header .container .menu .secondary-links .icons-list .icon a {
+
+        cursor: pointer;
+        transition: all -5.55s ease;
+    }
+
+    header .container .menu .secondary-links .icons-list .icon a:hover {
+        transform: translateY(-5px);
+        color: orangered;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .container {
+
+        margin: 0 auto;
+    }
+
+    header .container .menu .secondary-links .icons-list .icon {
+        padding: 0 8px;
+        font-size: 25px;
+    }
+
+    header .container .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    section .container .heading h1 {
+        text-align: center;
+        font-size: 60px;
+        font-weight: 400;
+        font-family: 'Amiri', serif;
+    }
+
+
+    header .container .menu .secondary-links {
+        display: flex;
+        align-items: center;
+
+    }
+
+    header .icons-list {
+        display: flex;
+
+    }
+
+    header .container .menu .secondary-links {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        justify-content: flex-end;
+    }
+
+    .tiles .container .tile .box img {
+        width: 82%;
+        padding: 45px;
+        border: 1px solid #dfdfdf;
+        border-radius: 400px;
+    }
+
+    .tiles .container .tile .box {
+        padding: 0 45px 0 45px;
+    }
+
+    .tiles .container .tile {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 130px;
+
+    }
+
+    .tiles .container .tile .box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    .tiles .container .tile .left {
+        width: 50%;
+        padding-right: 12px;
+    }
+
+    .tiles .container .tile .right {
+        width: 50%;
+        padding-left: 12px;
+
+    }
+
+    .logo .container .class {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -6.25rem 0 0;
+        padding: 0;
+        list-style-type: none;
+        align-items: center;
+        /* padding: 1px 100px 0 109px; */
+
+    }
+
+    .logo .container .class .logo-1 {
+        padding: 46px;
+    }
+
+    .logo .container {
+        border-bottom: 1px solid;
+    }
+
+    .advantage-scn .container {
+        border-bottom: 1px solid;
+    }
+
+    .adv-name {
+        font-size: 60px;
+        text-align: center;
+        margin-top: 105px;
+        margin-bottom: 102px;
+    }
+
+    .advantage-scn .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .advantage-scn .container .skill-tile {
+        width: 33%;
+        padding: 0px 20px;
+        text-align: center;
+
+    }
+
+    .advantage-scn .container .skill-tile .inner-tile {
+        border-radius: 177px;
+        padding: 56px 0px;
+        border: 1px solid #f1f1f1;
+        background-color: #f1f1f1;
+    }
+
+    .advantage-scn .container .skill-tile .inner-tile .prcnt {
+        margin-top: 23px;
+        font-size: 40px;
+    }
+
+    .advantage-scn .container .skill-tile .figma {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 16px;
+        font-family: 'Lato', sans-serif;
+
+    }
+
+    .Edu-Exp {
+        margin-top: 80px;
+    }
+
+    .Edu-Exp .container .Edu {
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Amiri', serif;
+
+    }
+
+    .Exp .container {
+        border-bottom: 1px solid;
+    }
+
+    .Exp .container .section-trap .section-1 .section-2 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        display: flex;
+
+    }
+
+    .Exp .container .section-trap .section-1 .section-2 {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .Exp .container .section-trap {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .Exp .container .section-trap .secton-1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .Exp .container .section-trap .section-1 {
+        width: 50%;
+
+    }
+
+    .Exp .container .section-trap .section-2 {
+        width: 50%;
+        padding-left: 12px;
+
+    }
+
+    .Exp .container .section-trap .Rmit {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .Edu-Exp {
+        margin-top: 120px;
+        margin-bottom: 90px;
+    }
+
+    .Bruno-text {
+        margin-top: 130px;
+    }
+
+    .Bruno-text .container .text-bruno {
+        font-size: 36px;
+        text-align: center;
+        padding: 0 80px 0 80px;
+        line-height: 54px;
+    }
+
+
+    .Bruno-text .container .kloop {
+        text-align: center;
+        margin-top: 80px;
+        font-size: 22px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+
+    .Bruno-text .container .link {
+        text-align: center;
+        font-size: 13px;
+        font-family: 'Lato', sans-serif;
+        padding-top: 15px;
+        font-weight: 400;
+    }
+
+    .tag .container .erdison {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .call-bruno .container .bruno-t .call {
+        font-size: 80px;
+        font-family: 'Amiri', serif;
+        line-height: 80px;
+
+    }
+
+    .call-bruno .container .bruno-t .call {
+        font-size: 84px;
+        font-family: 'Amiri', serif;
+        line-height: 80px;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .call-bruno .container .bruno-t {
+        border: dashed;
+        text-align: left;
+        width: fit-content;
+        border-radius: 53%;
+        padding-top: 90px;
+        padding-bottom: 54px;
+        padding-left: 126px;
+        padding-right: 126px;
+
+        margin: 0 auto;
+    }
+
+
+    .call-bruno .container .bruno-t .svg {
+        font-size: 64px;
+        margin-top: 40px;
+    }
+
+    footer .container .footer-1 {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    footer .container .footer-1 .moonex .icons-list {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    footer .container .footer-1 .moonex .icons-list .icon {
+        padding: 0 8px;
+        font-size: 25px;
+    }
+
+
+    footer .container .footer-1 .moonex .icons-list {
+        display: flex;
+
+    }
+
+    footer .container .footer-1 .moonex {
+        margin-top: 15px;
+    }
+
+    header .container .menu .menu-list ul li a:hover {
+        color: orangered;
+    }
+
+    header .container .menu .secondary-links .icons-list .icon a {
+
+        cursor: pointer;
+        transition: all .55s ease;
+    }
+
+    header .container .menu .secondary-links .icons-list .icon a:hover {
+        transform: translateY(-5px);
+        color: orangered;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+
+    header .container .menu .secondary-links .nav-menu {
+        display: none;
+    }
+
+    header .container .menu .menu-list {
+        display: flex;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        flex: 1;
+        justify-content: flex-start
+    }
+
+    header .container .menu .logo {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+    }
+
+    header .container .menu .menu-list ul {
+        display: flex;
+        list-style: none;
+
+    }
+
+    header .container .menu .menu-list ul li a.list {
+        padding: 0 25px;
+
+    }
+
+    section .container .heading h1 {
+        text-align: center;
+        font-size: 60px;
+        font-weight: 400;
+        font-family: 'Amiri', serif;
+    }
+
+    .tiles .container .tile .box img {
+        width: 70%;
+        padding: 35px;
+        border: 1px solid #dfdfdf;
+
+        border-radius: 400px;
+    }
+
+    .tiles .container .tile {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .tiles .container .tile .box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    .tiles .container .tile .left {
+        width: 50%;
+        padding-right: 12px;
+    }
+
+    .tiles .container .tile .right {
+        width: 50%;
+        padding-left: 12px;
+
+    }
+
+
+    .logo .container .class {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -6.25rem 100px 0;
+        padding: 0;
+        list-style-type: none;
+        align-items: center;
+        /* padding: 1px 100px 0 109px; */
+
+    }
+
+    .logo .container .class .logo-1 {
+        padding: 50px;
+    }
+
+    .logo .container {
+        border-bottom: 1px solid;
+    }
+
+    .advantage-scn .container {
+        border-bottom: 1px solid;
+    }
+
+    .advantage-scn .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .adv-name {
+        font-size: 60px;
+        text-align: center;
+        margin-top: 105px;
+        margin-bottom: 102px;
+    }
+
+    .advantage-scn .container .skill-tile {
+        width: 16%;
+        padding: 0px 20px;
+        text-align: center;
+        /* border: 1px solid; */
+
+
+    }
+
+    .advantage-scn .container .skill-tile .inner-tile {
+        border: 1px solid #f1f1f1;
+        background-color: #f1f1f1;
+        border-radius: 78px;
+        padding: 57px 0px;
+    }
+
+    .advantage-scn .container .skill-tile .inner-tile .prcnt {
+        margin-top: 23px;
+        font-size: 40px;
+    }
+
+    .advantage-scn .container .skill-tile .figma {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .Exp .container {
+        border-bottom: 1px solid;
+    }
+
+    .Exp .container .section-trap .Rmit {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .Edu-Exp {
+        margin-top: 120px;
+        margin-bottom: 90px;
+    }
+
+    .Exp .container .section-trap .section-1 .section-2 {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .Exp .container .section-trap {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .Exp .container .section-trap .secton-1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .Exp .container .section-trap .section-1 {
+        width: 33%;
+
+    }
+
+    .Exp .container .section-trap .section-2 {
+        width: 33%;
+
+
+    }
+
+    .Exp .container .section-trap .section-3 {
+        width: 33%;
+
+
+    }
+
+    .Bruno-text .container .text-bruno {
+        font-size: 48px;
+        text-align: center;
+        padding: 0 80px 0 80px;
+        line-height: 70px;
+    }
+
+
+    .Bruno-text .container .kloop {
+        text-align: center;
+        margin-top: 80px;
+        font-size: 24px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+
+    .Bruno-text .container .link {
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        padding-top: 15px;
+        font-weight: 400;
+    }
+
+    .tag .container .erdison {
+        font-size: 48px;
+        text-align: center;
+    }
+
+
+    .call-bruno .container .bruno-t .call {
+        font-size: 100px;
+        font-family: 'Amiri', serif;
+        line-height: 80px;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .call-bruno .container .bruno-t {
+        border: dashed;
+        text-align: left;
+        width: fit-content;
+        border-radius: 53%;
+        padding-top: 90px;
+        padding-bottom: 55px;
+        padding-left: 104px;
+        padding-right: 104px;
+
+        margin: 0 auto;
+    }
+
+    .call-bruno .container .Bruno-t .call {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    footer .container .footer-1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .container .footer-1 .moonex .icons-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .container .footer-1 .moonex .icons-list .icon {
+        padding: 0 8px;
+        font-size: 25px;
+    }
+
+    header .container .menu .menu-list ul li a:hover {
+        color: orangered;
+    }
+
+    header .container .menu .secondary-links .icons-list .icon a {
+
+        cursor: pointer;
+        transition: all .55s ease;
+    }
+
+    header .container .menu .secondary-links .icons-list .icon a:hover {
+        transform: translateY(-5px);
+        color: orangered;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    section .container .heading h1 {
+        text-align: center;
+        font-size: 80px;
+        font-weight: 400;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 1320px !important;
+    }
+
+    .tiles .container .three-tile {
+        border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .tiles .container .tile {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tiles .container .tile .box {
+        width: 50%;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .tiles .container .tile .box img {
+        width: 100%;
+        height: fit-content;
+        padding: 30px;
+        border-radius: 300px;
+        border: 1px solid #dfdfdf;
+
+    }
+
+    .tiles .container .tile .left {
+        width: 25%;
+        display: flex;
+        order: -1;
+
+
+
+    }
+
+    .tiles .container .tile .right {
+        width: 25%;
+        display: flex;
+        justify-content: flex-end;
+        text-align: end;
+
+    }
+
+    .logo .container {
+        border-bottom: 1px solid;
+    }
+
+    .advantage-scn .container {
+        border-bottom: 1px solid;
+    }
+
+    .adv-name {
+        font-size: 60px;
+        text-align: center;
+        margin-top: 105px;
+        margin-bottom: 102px;
+    }
+
+
+    .advantage-scn .container .skill-tile {
+        width: 16%;
+        padding: 0px 20px;
+        text-align: center;
+        margin-bottom: 150px;
+
+    }
+
+    .advantage-scn .container .skill-tile .inner-tile {
+        border: 1px solid #f1f1f1;
+        background-color: #f1f1f1;
+        border-radius: 100px;
+        padding: 64px 0px;
+
+    }
+
+    .advantage-scn .container .skill-tile .inner-tile .prcnt {
+        margin-top: 23px;
+        font-size: 40px;
+    }
+
+    .advantage-scn .container .skill-tile .figma {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+    }
+
+
+    .Exp .container .section-trap .Rmit {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .Edu-Exp {
+        margin-top: 120px;
+        margin-bottom: 90px;
+    }
+
+    .Exp .container {
+        border-bottom: 1px solid;
+    }
+
+    .Exp .container .section-trap {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .Exp .container .section-trap .section-1 .section-2 {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .Exp .container .section-trap {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 111px;
+
+    }
+
+    .Exp .container .section-trap .secton-1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .Exp .container .section-trap .section-1 {
+        width: 33.33%;
+
+    }
+
+    .Exp .container .section-trap .section-2 {
+        width: 33.33%;
+
+
+    }
+
+    .Exp .container .section-trap .section-2 {
+        width: 33.33%;
+
+
+    }
+
+    .Bruno-text .container .text-bruno {
+        font-size: 48px;
+        width: 101%;
+        text-align: center;
+        padding: 0 80px 0 80px;
+    }
+
+    .Bruno-text {
+        margin-top: 130px;
+    }
+
+    .Bruno-text .container .kloop {
+        text-align: center;
+        margin-top: 80px;
+        font-size: 24px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+
+    .Bruno-text .container .link {
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        padding-top: 15px;
+        font-weight: 400;
+    }
+
+    .tag .container .erdison {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .call-bruno .container .bruno-t .call {
+        font-size: 100px;
+        font-family: 'Amiri', serif;
+        line-height: 80px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .call-bruno .container .bruno-t .prj {
+        font-size: 12px;
+        margin-bottom: 30px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .call-bruno .container .bruno-t .svg {
+        font-size: 64px;
+        margin-top: 40px;
+    }
+
+    .call-bruno .container .bruno-t {
+        border: dashed;
+        text-align: left;
+        width: fit-content;
+        border-radius: 53%;
+        padding-top: 90px;
+        padding-bottom: 54px;
+        padding-left: 111px;
+        padding-right: 111px;
+
+        margin: 0 auto;
+    }
+
+    .call-bruno .container .Bruno-t .call {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    footer .container .footer-1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .container .footer-1 .moonex .icons-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .container .footer-1 .moonex .icons-list .icon {
+        padding: 0 8px;
+        font-size: 25px;
+    }
+
+
+    header .container .menu .menu-list ul li a:hover {
+        color: orangered;
+    }
+
+    header .container .menu .secondary-links .icons-list .icon a {
+
+        cursor: pointer;
+        transition: all .55s ease;
+    }
+
+    header .container .menu .secondary-links .icons-list .icon a:hover {
+        transform: translateY(-5px);
+        color: orangered;
+    }
+}
+
+
+
+
+
+@media (min-width: 1400px) {}
+
+
+
+
+
+
+
+.hero-wrapper .container .head {
+
+    border: 1px solid green;
+    background-color: lightcoral;
+}
+
+.container {
+    width: 100%;
+    padding: 0px 11px;
+}
+
+
+
+
+@media only screen and (min-width: 576px) {
+    /*  */
+
+}
